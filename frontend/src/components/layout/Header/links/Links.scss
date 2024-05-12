@@ -1,0 +1,40 @@
+.links {
+    &__item {
+        position: relative;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+
+    &__img {
+        width: 24px;
+        height: 24px;
+    }
+
+    &__quantity {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -15px;
+        right: -36px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: var(--primary);
+        color: var(--text-white);
+        z-index: -1;
+    }
+
+    &__link {
+        display: inline-block;
+        transition: .2s all;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}

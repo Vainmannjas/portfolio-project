@@ -1,0 +1,21 @@
+.favorite-btn {
+    
+    &__icon {
+        position: absolute;
+        z-index: 1;
+        top: 24px;
+        right: 24px;
+        width: 20px;
+        height: 20px;
+        transition: .2s all;
+    
+        &:hover {
+            transform: scale(1.2);
+        }
+    
+        &_active path{
+            fill: var(--state-color-error);
+            stroke: var(--state-color-error)
+        }
+    }
+}

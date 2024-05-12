@@ -1,0 +1,7 @@
+.button {
+   text-align: center;
+   cursor: pointer;
+   &:hover {
+      background-color: var(--hover-background, inherit)
+   }
+}

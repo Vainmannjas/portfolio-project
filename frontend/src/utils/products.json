@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "title": "Tailored Stretch",
+        "images": {
+            "beige": "https://media.boohoo.com/i/boohoo/fzz77463_stone_xl/female-stone-super-stretch-tapered-tailored-trouser",
+            "black": "https://media.boohoo.com/i/boohoo/fzz77463_black_xl_2/female-black-super-stretch-tapered-tailored-trouser",
+            "blue": "https://media.boohoo.com/i/boohoo/fzz77463_navy_xl?$product_image_main_mobile$&fmt=webp"
+        },
+        "price": 240,
+        "colors": {
+            "beige": "Beige",
+            "black": "Black",
+            "blue": "Blue"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Technical Silk",
+        "images": {
+            "brown": "https://media.boohoo.com/i/boohoo/fzz51888_black_xl_3/female-black-tailored-relaxed-buckle-trouser",
+            "beige": "https://media.boohoo.com/i/boohoo/fzz49041_mauve_xl/female-mauve-petite-self-belt-tailored-trouser/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+            "black": "https://media.boohoo.com/i/boohoo/fzz51888_black_xl/female-black-tailored-relaxed-buckle-trouser/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit"
+        },
+        "price": 335,
+        "colors": {
+            "brown": "Brown",
+            "beige": "Beige",
+            "black": "Black"
+        }
+
+    },
+    {
+        "id": 3,
+        "title": "Cool Weave",
+        "images": {
+            "ruby": "https://media.boohoo.com/i/boohoo/gzz81873_cherry_xl_2/female-cherry-super-stretch-tapered-tailored-trouser",
+            "black": "https://media.boohoo.com/i/boohoo/gzz81873_black_xl/female-black-super-stretch-tapered-tailored-trouser/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+            "dark-brown": "https://media.boohoo.com/i/boohoo/gzz56382_chocolate_xl/female-chocolate-super-stretch-tapered-tailored-trouser/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit"
+        },
+        "price": 200,
+        "colors": {
+            "ruby": "Ruby",
+            "black": "Black",
+            "dark-brown": "DarkBrown"
+        }
+
+    },
+    {
+        "id": 4,
+        "title": "Cool Dress",
+        "images": {
+            "pink": "https://media.boohoo.com/i/boohoo/fzz41104_nude_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+            "bright-pink": "https://media.boohoo.com/i/boohoo/fzz33728_magenta_xl/womens-magenta-self-fabric-belted-tailored-trousers/",
+            "middle-brown": "https://media.boohoo.com/i/boohoo/gzz00416_chocolate_xl/female-chocolate-split-front-tailored-trousers-/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit"
+        },
+        "price": 190,
+        "colors": {
+            "pink": "Pink",
+            "bright-pink": "BrightPink",
+            "middle-brown": "MiddleBrown"
+        }
+
+    },
+    {
+        "id": 5,
+        "title": "Cool Blause",
+        "images": {
+            "bright-brown": "https://media.boohoo.com/i/boohoo/gzz00418_camel_xl/female-camel-wide-leg-tailored-trousers/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+            "dark-brown": "https://media.boohoo.com/i/boohoo/gzz05178_chocolate_xl_1/female-chocolate-fit-&-flare-tailored-trousers",
+            "beige": "https://media.boohoo.com/i/boohoo/fzz34399_sand_xl_1/female-sand-pleat-front-tailored-relaxed-fit-trousers"
+        },
+        "price": 210,
+        "colors": {
+            "bright-brown": "BrightBrown",
+            "dark-brown": "DarkBrown",
+            "beige": "Beige"
+        }
+
+    },
+    {
+        "id": 6,
+        "title": "Summer Dress",
+        "images": {
+            "beige": "https://media.boohoo.com/i/boohoo/gzz22953_stone_xl/female-stone-slim-fit-split-front-tailored-trousers-/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+            "black": "https://media.boohoo.com/i/boohoo/gzz22953_black_xl?$product_image_main_mobile$&fmt=webp",
+            "light-blue": "https://media.boohoo.com/i/boohoo/gzz22953_slate%20blue_xl/female-slate%20blue-slim-fit-split-front-tailored-trousers-/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit"
+        },
+        "price": 180,
+        "colors": {
+            "beige": "Beige",
+            "black": "Black",
+            "light-blue": "LightBlue"
+        }
+
+    }
+]

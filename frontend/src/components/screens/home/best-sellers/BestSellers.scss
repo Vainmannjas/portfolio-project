@@ -1,0 +1,46 @@
+.best-sellers {
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+
+
+    &__carousel {
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        // gap: 24px;
+
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+}
+
+// Swiper Styles
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: rgb(132, 131, 131);
+    width: 11px;
+    height: 11px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+
+.pagination-container {
+    margin-top: 70px;
+}
+
+.swiper-slide {
+    height: 100%;
+}
+

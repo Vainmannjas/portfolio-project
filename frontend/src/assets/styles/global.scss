@@ -1,0 +1,50 @@
+@import url(./roots.scss);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: var(--bg-white);
+    color: var(--text-black);
+    font-family: var(--font-main);
+}
+
+.container {
+    max-width: 1255px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: var(--bg-white);
+    padding: 8px 0;
+    min-width: 185px;
+    color: var(--text-black);
+    font-size: 14px;
+    line-height: 171%;
+    text-transform: capitalize;
+}
+.btn-small {
+    padding: 8px 15px;
+}
+
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.title-small {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.title-muted {
+    font-size: 14px;
+    line-height: 171%;
+    text-transform: capitalize;
+    color: var(--primary-primary-600);
+}

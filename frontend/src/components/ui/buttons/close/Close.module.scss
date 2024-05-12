@@ -1,0 +1,6 @@
+.close {
+    transition: color .3s ease;
+    &:hover {
+        color: rgb(128, 128, 128);
+    }
+}

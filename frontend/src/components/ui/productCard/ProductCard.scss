@@ -1,0 +1,151 @@
+.product-card {
+    position: relative;
+
+    &__img {
+        border-radius: 10px;
+    }
+
+    .panel {
+        position: absolute;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: center;
+        background-color: rgb(236, 236, 236);
+        padding: 30px;
+        border-radius: 0 0 10px 10px;
+        bottom: 102px; 
+        z-index: 1;
+        opacity: 0;
+        transition: .3s all;
+        
+        &:hover {
+            opacity: 1;
+        }
+
+        &__decrement {
+
+            &:hover {
+                background-color: var(--primary-primary25);
+            }
+        }
+
+        &__quantity {
+
+        }
+
+        &__increment {
+
+            &:hover {
+                background-color: var(--primary-primary25);
+            }
+        }
+    }
+
+
+    &__description{
+        display: grid;
+        grid-template-columns: 1fr auto;
+        // align-items: center;
+        padding: 5.5px 8px;
+
+    }
+}
+
+.description {
+
+    &__properties {
+        display: grid;
+        gap: 8px; 
+     }
+
+     &__second-column {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        & > :nth-child(2) {
+            grid-row: 3;
+        }
+     }
+}
+
+.properties {
+
+    &__subtitle {
+        font-size: 16px;
+        line-height: 180%;
+        text-transform: capitalize;
+    }
+
+    &__colors {
+        z-index: 0;
+        display: flex;
+        gap: 8px;
+        // justify-content: space-between;
+
+        .color {
+            width: 24px;
+            height: 24px;
+            background-color: transparent;
+            border-radius: 50%;
+            transition: .1s all;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            &-light-blue {
+                background-color: #a4bde5;
+            }
+            &-bright-brown {
+                background-color: #d2926a;
+            }
+            &-middle-brown {
+                background-color: #79312c;
+            }
+            &-bright-pink {
+                background-color: #c64762;
+            }
+            &-pink {
+                background-color: #debdab;
+            }
+            &-dark-brown{
+                background-color: #502e2c;
+            }
+            &-ruby {
+                background-color: #841e29;
+            }
+            &-brown {
+                background-color: #493f3f;
+            }
+            &-beige {
+                background-color: #e6dbd3;
+            }
+            &-black {
+                background-color: var(--text-black);
+            }
+            &-blue {
+                background-color: #3e5396;
+            }
+        
+            &-primary {
+                background-color: var(--primary);
+            }
+        }
+    }
+}
+
+.product-card__link {
+    color: var(--text-black);
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+

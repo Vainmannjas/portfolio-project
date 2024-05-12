@@ -1,0 +1,12 @@
+.top-info {
+    width: 100%;
+    background: var(--primary-primary-600);
+    &__text {
+        font-weight: 600;
+        color: var(--text-white);
+        font-size: 12px;
+        padding: 8px 0 7px;
+        text-align: center;
+    }
+}
+

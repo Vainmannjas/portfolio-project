@@ -1,0 +1,12 @@
+.card-collection {
+
+    position: relative;
+
+    &__btn {
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        text-align: center;
+    }
+}
+

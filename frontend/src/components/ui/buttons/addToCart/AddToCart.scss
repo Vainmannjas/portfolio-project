@@ -1,0 +1,15 @@
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 10px;
+    transform: scaleX(-1);
+    background-color: var(--primary-primary50);
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: var(--primary-primary100);
+    }
+}

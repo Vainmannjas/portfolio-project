@@ -1,0 +1,16 @@
+.layout {
+    width: 99vw;
+    
+    &__grid {
+        display: flex;
+
+        .layout__sidebars {
+            display: flex;
+        }
+    }
+}
+
+.outlet {
+    padding-top: 110px;
+    width: var(--content-height);
+}
